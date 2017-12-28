@@ -1,0 +1,48 @@
+<html>  
+    <head>  
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>嘉兴</title>
+      <style type="text/css">
+        *{
+          margin: 0px;
+          padding: 0px;
+        }
+        a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+        html{
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body{
+            height: 100%;
+        }
+         #music{
+            background-color:rgba(255,0,255,0);
+            height: 150px;
+            width: 100%;
+            border: 0;
+            z-index: 100;
+            position: fixed;
+         }
+         .index{
+            width: 100%;
+            height: 100%;
+            border: 0;
+            overflow: auto;
+         }
+      </style>
+      <script type="text/javascript" src=""></script>
+    </head>  
+      
+    <!-- <frameset rows="10%,90%" framespacing="0" frameborder="no" border="0"> 
+    
+    <frame name="button" src="control.html" id="music"> 
+    <frame name="vbody" src="frame.html" class="index">
+    <noframes>  
+    <body>您的浏览器无法处理框架！</body>  
+    </noframes>  
+    </frameset>   -->
+
+    <iframe name="button" src="control.html" id="music"></iframe>  
+    <iframe name="vbody" src="frame.html" class="index"></iframe>
+</html>  
